@@ -1,0 +1,48 @@
+@use './variables' as *;
+
+body {
+    color: var(--clr-txt-neutral-light);
+    font-family: $font-family;
+    background-image: url(../src/images/pattern-bg-desktop.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+}
+
+#root {
+    display: grid;
+    grid-template-rows: .75fr .5fr 1fr 1fr 6fr;
+    height: 100vh;
+}
+
+.title {
+    display: grid;
+    grid-row: 1 / 2;
+    margin-block-start: var(--space-m);
+    font-size: var(--fs-800);
+    letter-spacing: var(--space-3xs);
+    place-content: center;
+}
+
+.search-wrapper {
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.info-wrapper, .map-wrapper {
+    grid-column: 1 / 1;
+}
+
+.info-wrapper {
+    width: max(var(--measure-compact), 75%);
+    grid-row: 3 / 5;
+    margin: auto;
+    z-index: 1;
+}
+
+.map-wrapper {
+    grid-row: 4 / -1;
+    z-index: 0;
+}

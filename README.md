@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Frontend Mentor - IP address tracker solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [IP address tracker challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+IP Address checker that uses the IP Geolocation API by IPify and Leaflet maps. Created with help of React, HTLM and Sass/CSS.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- View the optimal layout for each page depending on their device's screen size
+- See hover states for all interactive elements on the page
+- See their own IP address on the map on the initial page load
+- Search for any IP addresses or domains and see the key information and location
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![desktop](./src/screenshots/desktop.png)
+![mobile](./src/screenshots/mobile.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Links
 
-### `npm run eject`
+- Solution URL: [Github page - code](https://github.com/MCDoodle1/ip-tracker)
+- Live Site URL: [Github Pages Live Site](https://mcdoodle1.github.io/ip-tracker/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## My process
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I started writing the HTML to define the App structure. Then I defined what was needed in React to make a functioning App. I learned how to implement the Geo location API and how to link it to the maps. I wrote the react code. Then I implemented Sass and wrote the CSS. I made the App fluid and responsive with CSS/Sass code I used earlier in other projects. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Built with
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- CSS custom properties
+- CSS Grid
+- Responsive design with fluid typography
+- [BEM](https://en.bem.info/methodology/css/) - BEM Methodology
+- [React](https://reactjs.org/) - JS library
+- [Sass](https://sass-lang.com) - Sass documentation
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### What I learned
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+I learned more about working with API's in React and how to link data from the API to maps in Leaflet. I also learned how to hide an API key. I also continued learning about structuring CSS with Sass.
 
-### Code Splitting
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+In a next project I want to extend my knowledge of React, learn more about semantic HTML and assistive technology like screen readers. I want to extend my knowledgde of CSS and Sass.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Useful resources
 
-### Making a Progressive Web App
+- [IP Geolocation API](https://geo.ipify.org) - Real-time IP geolocation API that lets you look up IP locations.
+- [React Leaflet v4.x](https://react-leaflet.js.org) - An open-source React library for interactive maps
+- [Stack Overflow](https://stackoverflow.com/) - A public platform for coding questions & answers
+- [Chat GPT 3.5](https://chat.openai.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Marco Clarijs](https://github.com/MCDoodle1)
+- Frontend Mentor - [@MCDoodle1](https://www.frontendmentor.io/profile/MCDoodle1)
